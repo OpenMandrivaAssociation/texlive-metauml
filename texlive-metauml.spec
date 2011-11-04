@@ -1,3 +1,9 @@
+# revision 19692
+# category Package
+# catalog-ctan /graphics/metapost/contrib/macros/metauml
+# catalog-date 2010-07-30 13:14:18 +0200
+# catalog-license gpl
+# catalog-version 0.2.5
 Name:		texlive-metauml
 Version:	0.2.5
 Release:	1
@@ -129,6 +135,7 @@ and use case diagrams.
 %doc %{_texmfdistdir}/doc/metapost/metauml/metauml_manual/test.mp
 %doc %{_texmfdistdir}/doc/metapost/metauml/metauml_manual/test_suite.tex
 %doc %{_texmfdistdir}/doc/metapost/metauml/metauml_manual_0.2.5.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -139,3 +146,5 @@ and use case diagrams.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
