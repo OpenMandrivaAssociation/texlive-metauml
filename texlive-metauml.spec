@@ -136,3 +136,17 @@ and use case diagrams.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2.5-2
++ Revision: 753930
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2.5-1
++ Revision: 719003
+- texlive-metauml
+- texlive-metauml
+- texlive-metauml
+- texlive-metauml
+
