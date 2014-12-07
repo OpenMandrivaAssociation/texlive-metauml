@@ -6,7 +6,7 @@
 # catalog-version 0.2.5
 Name:		texlive-metauml
 Version:	0.2.5
-Release:	8
+Release:	9
 Summary:	MetaPost library for typesetting UML diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/metauml
