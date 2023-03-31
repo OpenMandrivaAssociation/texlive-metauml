@@ -1,6 +1,6 @@
 Name:		texlive-metauml
 Version:	49923
-Release:	1
+Release:	2
 Summary:	MetaPost library for typesetting UML diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/metauml
