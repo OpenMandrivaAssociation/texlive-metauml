@@ -3,7 +3,7 @@ Version:	49923
 Release:	2
 Summary:	MetaPost library for typesetting UML diagrams
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/metauml
+URL:		https://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/metauml
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/metauml.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/metauml.doc.r%{version}.tar.xz
